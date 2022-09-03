@@ -1,0 +1,28 @@
+﻿@*@using 
+@model*@ 
+
+@{
+    Layout = null;
+}
+
+
+<h3>MVC KAMP TABLO ÖRNEĞİ - KATEGORİ</h3>
+<br />
+
+<table class="table-bordered">
+
+    <tr>
+        <th>ID</th>
+        <th>Adı</th>
+        <th>Açıklaması</th>
+        <th>Durumu</th>
+    </tr>
+    @*@foreach (var x in Model) {
+    <tr>
+        <td>@x.CategoryID</td>
+        <td>@x.CategoryName</td>
+        <td>@x.CategoryDescription</td>
+        <td>@x.CategoryStatus</td>
+    </tr>
+    }*@
+</table>
