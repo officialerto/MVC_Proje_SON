@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h1>YENİ KATEGORİ EKLEME</h1>
+
+<form class="form-group" method="post">
+
+    <!--INPUT TAG'INDAKİ "NAME" KISMI SQL'E VE TABLOMUZA VERİYİ KAYDETMEMİZİ SAĞLIYOR(SQL TABLE ISMIYLE AYNI OLMAK ZORUNDA)-->
+    <input type="text" class="form-control" name="CategoryName" placeholder="Kategori Ekle" />
+    <br />
+    <input type="text" class="form-control" name="CategoryDescription" placeholder="Açıklama Ekle" />
+    <br />
+    <button class="btn btn-primary">Ekle</button>
+</form>
